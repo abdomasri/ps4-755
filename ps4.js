@@ -443,7 +443,7 @@ function sprayStringImpl(start, end) {
 }
 
 function go() {
-		if(localStorage.is755nCached){
+		if(localStorage.is755XCached){
 		/* Init spray */
 		sprayHTMLTextArea();
 

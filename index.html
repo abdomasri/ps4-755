@@ -264,10 +264,10 @@
 	<body onload="go()" class="bg">
 		<script>
 		var fw = (navigator.userAgent.substring(navigator.userAgent.indexOf('5.0 (') + 19, navigator.userAgent.indexOf(') Apple'))).replace('.', '');;
-		    if(window.applicationCache.status==2){localStorage.is755nCached=true;}
-			window.applicationCache.ondownloading=function(){document.getElementById("progressx").innerHTML="Page Caching Started!!";localStorage.is755nCached=false;};
+		    if(window.applicationCache.status==2){localStorage.is755XCached=true;}
+			window.applicationCache.ondownloading=function(){document.getElementById("progressx").innerHTML="Page Caching Started!!";localStorage.is755XCached=false;};
 			window.applicationCache.onprogress=function(a){document.getElementById("progressx").innerHTML=(Math.round(100*(a.loaded/a.total)))+"%";};
-			window.applicationCache.oncached=function(){document.getElementById("progressx").innerHTML="Page Cached Successfully!!";localStorage.is755nCached=true;setTimeout(function(){document.getElementById("progressx").innerHTML="Turn Off the Internet & Reopen the Page !!"; }, 1500);};
+			window.applicationCache.oncached=function(){document.getElementById("progressx").innerHTML="Page Cached Successfully!!";localStorage.is755XCached=true;setTimeout(function(){document.getElementById("progressx").innerHTML="Turn Off the Internet & Reopen the Page !!"; }, 1500);};
 		</script>
 		<script>
 		function print(){}
